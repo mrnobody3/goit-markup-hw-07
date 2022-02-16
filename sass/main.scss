@@ -1,7 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
-@import './utils/variables.scss';
-@import './components/page-header';
+// @import url(https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css);
+@import './base/modern-normalize';
+@import './utils/variables';
+@import './utils/container';
+@import './utils/hidden';
 
-body {
-  background-color: tomato;
-}
+
+
+@import './components/page-header';
+@import './components/logo';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/button';
+@import './components/form';
+
+
+@import './components/hero';
+@import './components/section-titles';
+@import './components/features';
+
+
+
+@import './components/examples';
+@import './components/our-team';
+@import './components/social-team';
+@import './components/clients';
+@import './components/footer';
+@import './components/filter';
+@import './components/portfolio';
+
+
+
+
+
