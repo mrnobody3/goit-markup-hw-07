@@ -2,10 +2,18 @@
   background-color: $main-bg-color;
   padding-top: 60px;
   padding-bottom: 60px;
+  &__logo {
+    margin-bottom: 20px;
+  }
+  &__conect {
+  margin-left: 70px;
+  }
+  &__follow {
+    margin-left: 93px;
+  }
 }
 
 .address {
-  margin-top: 20px;
   &__link {
     display: inline-block;
     text-decoration: none;
@@ -31,7 +39,6 @@
 .conect {
   position: relative;
   top: 12px;
-  margin-left: 70px;
   &__title {
     display: block;
     text-transform: uppercase;
@@ -54,7 +61,6 @@
   position: relative;
   top: 12px;
   display: block;
-  margin-left: 93px;
   &__label {
     position: relative;
     display: flex;

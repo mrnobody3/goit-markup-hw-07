@@ -1,11 +1,13 @@
 .page-header {
   border-bottom: 1px solid #ececec;
   min-height: 80px;
+  &__nav {
+    margin-left: 93px;
+  }
 }
 
 
 .nav {
-  margin-left: 93px;
   &__list {
     display: flex;
   }

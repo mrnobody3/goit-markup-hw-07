@@ -161,7 +161,6 @@ p {
 
 .container--footer {
   display: flex;
-  align-items: flex-start;
 }
 
 .section__title--hidden {
@@ -182,7 +181,7 @@ p {
   min-height: 80px;
 }
 
-.nav {
+.page-header__nav {
   margin-left: 93px;
 }
 
@@ -695,8 +694,16 @@ p {
   padding-bottom: 60px;
 }
 
-.address {
-  margin-top: 20px;
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__conect {
+  margin-left: 70px;
+}
+
+.footer__follow {
+  margin-left: 93px;
 }
 
 .address__link {
@@ -725,7 +732,6 @@ p {
 .conect {
   position: relative;
   top: 12px;
-  margin-left: 70px;
 }
 
 .conect__title {
@@ -749,7 +755,6 @@ p {
   position: relative;
   top: 12px;
   display: block;
-  margin-left: 93px;
 }
 
 .follow__label {
